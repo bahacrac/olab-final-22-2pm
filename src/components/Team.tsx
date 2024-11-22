@@ -14,19 +14,19 @@ const team = [
     name: 'Pia Marie ',
     role: 'Account Manger',
     image: 'https://media.licdn.com/dms/image/v2/C5603AQGy29f3sZeOaA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1604235036122?e=1737590400&v=beta&t=yHWfMO0omBRD0WHbMqt57IrkEENeLZI8ruz8n-WZ3vg',
-    bio: 'Your Reslut driven & key to detail manager with 5+ years experience.',
+    bio: 'Your Result driven & key to detail manager with 5+ years experience.',
     social: { linkedin: '#', twitter: '#', github: '#' }
   },
   {
     name: 'Bahauddin Chishte',
-    role: 'Operation & Fullfilment Coordinator',
+    role: 'Operations & Fullfilment Coordinator',
     image: 'https://avatars.githubusercontent.com/u/91181868?v=4',
     bio: 'Experienced in various filled and flexible to work with Software, Business & Marketing.',
     social: { linkedin: '#', twitter: '#', github: '#' }
   },
   {
     name: 'Shahabuddin Chishte',
-    role: 'Graphics Designer & Operations Coordinator',
+    role: 'Graphics Design & Operations Coordinator',
     image: 'https://media.licdn.com/dms/image/v2/D5603AQFqhQKVWS34ig/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1679032222478?e=1737590400&v=beta&t=afIE--1x43_uht8GbeTh4uUaGt1lL5Zcw2wQIllkkxc',
     bio: 'Graphics Designer with strong experties in office management',
     social: { linkedin: '#', twitter: '#', github: '#' }
