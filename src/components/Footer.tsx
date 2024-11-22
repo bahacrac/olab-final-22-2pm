@@ -17,7 +17,7 @@ export default function Footer() {
             <div>
               <div className="flex items-center mb-6">
                 <Beaker className="h-8 w-8 text-[#ff6b00]" />
-                <span className="ml-2 text-xl font-bold text-white">oLab</span>
+                <span className="ml-2 text-xl font-bold text-white">bLab</span>
               </div>
               <p className="text-gray-300">
                 Software development and data focused digital marketing solutions.
