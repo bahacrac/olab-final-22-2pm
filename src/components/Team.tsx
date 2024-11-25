@@ -19,7 +19,7 @@ const team = [
   },
   {
     name: 'Bahauddin Chishte',
-    role: 'Operations & Fullfilment Coordinator',
+    role: 'Operations and Fulfillment Lead',
     image: 'https://avatars.githubusercontent.com/u/91181868?v=4',
     bio: 'Experienced in various filled and flexible to work with Software, Business & Marketing.',
     social: { linkedin: '#', twitter: '#', github: '#' }
