@@ -46,3 +46,7 @@
 .stroke-dashoffset-0 {
   stroke-dashoffset: 0;
 }
+
+.hover\:pause:hover > * {
+  animation-play-state: paused;
+}

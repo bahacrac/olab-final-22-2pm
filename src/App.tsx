@@ -12,6 +12,7 @@ const BusinessValue = lazy(() => import('./components/BusinessValue'));
 const Consulting = lazy(() => import('./components/Consulting'));
 const About = lazy(() => import('./components/About'));
 const Team = lazy(() => import('./components/Team'));
+const Testimonials = lazy(() => import('./components/Testimonials'));
 const Contact = lazy(() => import('./components/Contact'));
 const Footer = lazy(() => import('./components/Footer'));
 
@@ -33,6 +34,7 @@ function App() {
             <Consulting />
             <About />
             <Team />
+            <Testimonials />
             <Contact />
           </Suspense>
         </div>
