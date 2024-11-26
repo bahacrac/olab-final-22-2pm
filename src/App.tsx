@@ -11,9 +11,9 @@ const MarketingROI = lazy(() => import('./components/MarketingROI'));
 const BusinessValue = lazy(() => import('./components/BusinessValue'));
 const Consulting = lazy(() => import('./components/Consulting'));
 const About = lazy(() => import('./components/About'));
-const FAQ = lazy(() => import('./components/FAQ'));
-const Team = lazy(() => import('./components/Team'));
 const Testimonials = lazy(() => import('./components/Testimonials'));
+const Team = lazy(() => import('./components/Team'));
+const FAQ = lazy(() => import('./components/FAQ'));
 const Contact = lazy(() => import('./components/Contact'));
 const Footer = lazy(() => import('./components/Footer'));
 
