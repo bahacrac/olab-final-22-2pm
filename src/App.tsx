@@ -11,6 +11,7 @@ const MarketingROI = lazy(() => import('./components/MarketingROI'));
 const BusinessValue = lazy(() => import('./components/BusinessValue'));
 const Consulting = lazy(() => import('./components/Consulting'));
 const About = lazy(() => import('./components/About'));
+const FAQ = lazy(() => import('./components/FAQ'));
 const Team = lazy(() => import('./components/Team'));
 const Testimonials = lazy(() => import('./components/Testimonials'));
 const Contact = lazy(() => import('./components/Contact'));
@@ -33,6 +34,7 @@ function App() {
             <BusinessValue />
             <Consulting />
             <About />
+            <FAQ />
             <Team />
             <Testimonials />
             <Contact />
