@@ -23,7 +23,7 @@ export default function Navbar() {
       setActiveSection(current || '');
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
@@ -50,11 +50,14 @@ export default function Navbar() {
 
   return (
     <nav 
-      className={`fixed w-full z-50 transition-all duration-300 ${
+      className={`fixed w-full z-50 transition-colors duration-300 ${
         isScrolled 
-          ? 'section-block border-b border-gray-800/50 backdrop-blur-md bg-gray-900/50'
-          : 'bg-transparent backdrop-blur-sm bg-black/20'
+          ? 'bg-gray-900/95 backdrop-blur-md'
+          : 'bg-transparent'
       }`}
+      style={{
+        borderBottom: isScrolled ? '1px solid rgba(31, 41, 55, 0.5)' : 'none'
+      }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
@@ -82,11 +85,7 @@ export default function Navbar() {
           <div className="hidden md:block">
             <a
               href="tel:0428770086"
-              className={`px-4 py-2 rounded-lg font-semibold transition-all duration-200 ${
-                isScrolled
-                  ? 'bg-[#ff6b00] text-white hover:bg-[#ff8533]'
-                  : 'border-2 border-white text-white hover:bg-white hover:text-gray-900'
-              }`}
+              className="px-4 py-2 rounded-lg font-semibold bg-[#ff6b00] text-white hover:bg-[#ff8533] transition-colors"
             >
               Call Now
             </a>
@@ -106,7 +105,7 @@ export default function Navbar() {
         {/* Mobile Menu */}
         {isOpen && (
           <div className="md:hidden absolute top-full left-0 w-full">
-            <div className="section-block p-4 rounded-b-lg border-t border-gray-800/50 backdrop-blur-md bg-gray-900/90">
+            <div className="bg-gray-900/95 backdrop-blur-md p-4" style={{ borderTop: '1px solid rgba(31, 41, 55, 0.5)' }}>
               {navLinks.map(link => (
                 <a
                   key={link.href}
