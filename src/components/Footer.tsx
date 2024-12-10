@@ -1,12 +1,10 @@
 import React from 'react';
-import { Beaker, Linkedin, Twitter, Facebook, Instagram } from 'lucide-react';
+import { Linkedin, Twitter } from 'lucide-react';
 
 export default function Footer() {
   const socialLinks = [
     { name: 'LinkedIn', icon: Linkedin, url: 'https://www.linkedin.com/company/olabhq/' },
     { name: 'Twitter', icon: Twitter, url: 'https://twitter.com/bappygolder' },
-    // { name: 'Facebook', icon: Facebook, url: 'https://facebook.com/olabau' },
-    // { name: 'Instagram', icon: Instagram, url: 'https://instagram.com/olabau' }
   ];
 
   return (
@@ -15,8 +13,11 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center mb-6">
-              <Beaker className="h-8 w-8 text-[#ff6b00]" />
-              <span className="ml-2 text-xl font-bold text-white">oLab</span>
+              <img 
+                src="https://web.archive.org/web/20231026041914im_/https://olab.com.au/dist/images/olab-1.svg"
+                alt="oLab Logo"
+                className="h-10 w-auto transition-transform hover:scale-105"
+              />
             </div>
             <p className="text-gray-300">
               Software development and data focused digital marketing solutions.
