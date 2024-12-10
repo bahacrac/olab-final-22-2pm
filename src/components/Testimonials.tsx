@@ -78,7 +78,7 @@ const ScrollingRow = ({ reviews, direction }: { reviews: typeof testimonials, di
     initial={{ x: direction === 'left' ? 0 : '-100%' }}
     animate={{ x: direction === 'left' ? '-100%' : 0 }}
     transition={{
-      duration: 70,
+      duration: 80,
       repeat: Infinity,
       ease: 'linear',
     }}
