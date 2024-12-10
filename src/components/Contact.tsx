@@ -112,7 +112,7 @@ export default function Contact() {
               <Mail className="w-8 h-8 text-[#ff6b00] flex-shrink-0" />
               <div>
                 <h3 className="text-xl font-semibold mb-2 text-white">Email</h3>
-                <p className="text-gray-300 text-lg">contact@olab.com.au</p>
+                <p className="text-gray-300 text-lg">bappy@olab.com.au</p>
               </div>
             </div>
             
