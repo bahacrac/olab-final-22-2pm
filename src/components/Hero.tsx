@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight mb-8 bg-clip-text">
-            We create better ai software & digital marketing solutions.
+            We create better Ai software & digital marketing solutions.
           </h1>
           <p className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
             Specialising in business growth with software-driven automation, advanced personalisation, and data-driven marketing solutions.
