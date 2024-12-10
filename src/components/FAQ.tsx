@@ -105,7 +105,7 @@ const FAQ: React.FC = () => {
           ))}
         </motion.div>
 
-        <div className="mt-12 text-center">
+        {/* <div className="mt-12 text-center">
           <p className="text-gray-300 mb-6">Still have questions?</p>
           <a
             href="#contact"
@@ -113,7 +113,7 @@ const FAQ: React.FC = () => {
           >
             Contact Us
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );
