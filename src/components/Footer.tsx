@@ -3,10 +3,10 @@ import { Beaker, Linkedin, Twitter, Facebook, Instagram } from 'lucide-react';
 
 export default function Footer() {
   const socialLinks = [
-    { name: 'LinkedIn', icon: Linkedin, url: 'https://linkedin.com/company/olab' },
-    { name: 'Twitter', icon: Twitter, url: 'https://twitter.com/olabau' },
-    { name: 'Facebook', icon: Facebook, url: 'https://facebook.com/olabau' },
-    { name: 'Instagram', icon: Instagram, url: 'https://instagram.com/olabau' }
+    { name: 'LinkedIn', icon: Linkedin, url: 'https://www.linkedin.com/company/olabhq/' },
+    { name: 'Twitter', icon: Twitter, url: 'https://twitter.com/bappygolder' },
+    // { name: 'Facebook', icon: Facebook, url: 'https://facebook.com/olabau' },
+    // { name: 'Instagram', icon: Instagram, url: 'https://instagram.com/olabau' }
   ];
 
   return (
