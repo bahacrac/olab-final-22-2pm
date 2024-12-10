@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 import { Award, Target, Users2, Lightbulb, CheckCircle2 } from 'lucide-react';
 
 const stats = [
-  { label: 'Years Experience', value: '15+' },
+  { label: 'Years Experience', value: '10+' },
   { label: 'Projects Completed', value: '200+' },
-  { label: 'Team Members', value: '25+' },
+  { label: 'Team Members', value: '10+' },
   { label: 'Client Satisfaction', value: '98%' }
 ];
 
@@ -46,7 +46,7 @@ export default function About() {
           >
             <h2 className="text-4xl font-light text-white">About <span className="text-[#ff6b00]">oLab</span></h2>
             <p className="text-xl text-gray-300 leading-relaxed">
-              Founded in 2009, oLab has been at the forefront of digital innovation, helping businesses transform and thrive in the digital age.
+              Founded in 2015, oLab has been at the forefront of digital innovation, helping businesses transform and thrive in the digital age.
             </p>
             <div className="space-y-4">
               {['Industry-leading expertise in software development', 'Data-driven marketing solutions', 'Innovative business automation', 'Strategic consulting services'].map((point, index) => (
